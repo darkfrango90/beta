@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "235803457456",
+    "project_id": "despesasapp-28419",
+    "storage_bucket": "despesasapp-28419.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235803457456:android:0d620b01ead84f4b360875",
+        "android_client_info": {
+          "package_name": "com.darkfrango.despesas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1bsVNeND5F_BNlaOguLftAQSCelgSwLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

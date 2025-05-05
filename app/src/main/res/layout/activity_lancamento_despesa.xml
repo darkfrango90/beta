@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FAF8FF">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIGITE O VALOR ABAIXO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#663399"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor da despesa"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição (opcional)"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewFoto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Imagem selecionada" />
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar ou Tirar Foto"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#663399"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar Despesa"
+        android:backgroundTint="#663399"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button" />
+
+    <TextView
+        android:id="@+id/txtRodape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dúvidas ou perguntas procure T.I. Rodrigo Rodrigues"
+        android:textSize="12sp"
+        android:layout_marginTop="32dp"
+        android:textColor="#888888"
+        android:gravity="center" />
+
+</LinearLayout>
